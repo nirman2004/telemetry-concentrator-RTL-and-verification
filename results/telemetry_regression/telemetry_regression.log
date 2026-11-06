@@ -1,0 +1,1498 @@
+Time resolution is 1 ps
+
+==========================================
+ TELEMETRY CONCENTRATOR INTEGRATION TEST
+==========================================
+
+[TEST 1] Simultaneous multi-channel traffic
+[GRANT TRACE] Time=185000 Grant=1
+[OUTPUT] Time=185000 Packet=400bbbb0000 Channel=1 Sequence=0
+[SCOREBOARD PASS] Temperature packet matched: 400bbbb0000
+[GRANT TRACE] Time=195000 Grant=2
+[OUTPUT] Time=195000 Packet=800cccc0000 Channel=2 Sequence=0
+[SCOREBOARD PASS] Emergency packet matched: 800cccc0000
+[GRANT TRACE] Time=205000 Grant=0
+[OUTPUT] Time=205000 Packet=000aaaa0000 Channel=0 Sequence=0
+[SCOREBOARD PASS] Vibration packet matched: 000aaaa0000
+[GRANT TRACE] Time=215000 Grant=1
+[OUTPUT] Time=215000 Packet=401bbbb0001 Channel=1 Sequence=1
+[SCOREBOARD PASS] Temperature packet matched: 401bbbb0001
+[GRANT TRACE] Time=225000 Grant=2
+[OUTPUT] Time=225000 Packet=801cccc0001 Channel=2 Sequence=1
+[SCOREBOARD PASS] Emergency packet matched: 801cccc0001
+[GRANT TRACE] Time=235000 Grant=0
+[OUTPUT] Time=235000 Packet=001aaaa0001 Channel=0 Sequence=1
+[SCOREBOARD PASS] Vibration packet matched: 001aaaa0001
+[GRANT TRACE] Time=245000 Grant=1
+[OUTPUT] Time=245000 Packet=402bbbb0002 Channel=1 Sequence=2
+[SCOREBOARD PASS] Temperature packet matched: 402bbbb0002
+[GRANT TRACE] Time=255000 Grant=0
+[OUTPUT] Time=255000 Packet=002aaaa0002 Channel=0 Sequence=2
+[SCOREBOARD PASS] Vibration packet matched: 002aaaa0002
+[GRANT TRACE] Time=265000 Grant=2
+[OUTPUT] Time=265000 Packet=802cccc0002 Channel=2 Sequence=2
+[SCOREBOARD PASS] Emergency packet matched: 802cccc0002
+[GRANT TRACE] Time=275000 Grant=1
+[OUTPUT] Time=275000 Packet=403bbbb0003 Channel=1 Sequence=3
+[SCOREBOARD PASS] Temperature packet matched: 403bbbb0003
+[GRANT TRACE] Time=285000 Grant=0
+[OUTPUT] Time=285000 Packet=003aaaa0003 Channel=0 Sequence=3
+[SCOREBOARD PASS] Vibration packet matched: 003aaaa0003
+[GRANT TRACE] Time=295000 Grant=2
+[OUTPUT] Time=295000 Packet=803cccc0003 Channel=2 Sequence=3
+[SCOREBOARD PASS] Emergency packet matched: 803cccc0003
+[GRANT TRACE] Time=305000 Grant=1
+[OUTPUT] Time=305000 Packet=404bbbb0004 Channel=1 Sequence=4
+[SCOREBOARD PASS] Temperature packet matched: 404bbbb0004
+[GRANT TRACE] Time=315000 Grant=0
+[OUTPUT] Time=315000 Packet=004aaaa0004 Channel=0 Sequence=4
+[SCOREBOARD PASS] Vibration packet matched: 004aaaa0004
+[GRANT TRACE] Time=335000 Grant=0
+[OUTPUT] Time=335000 Packet=005aaaa0005 Channel=0 Sequence=5
+[SCOREBOARD PASS] Vibration packet matched: 005aaaa0005
+[GRANT TRACE] Time=355000 Grant=0
+[OUTPUT] Time=355000 Packet=006aaaa0006 Channel=0 Sequence=6
+[SCOREBOARD PASS] Vibration packet matched: 006aaaa0006
+[GRANT TRACE] Time=375000 Grant=0
+[OUTPUT] Time=375000 Packet=007aaaa0007 Channel=0 Sequence=7
+[SCOREBOARD PASS] Vibration packet matched: 007aaaa0007
+
+[TEST 2] Output backpressure
+[PASS] Output stable during backpressure
+[GRANT TRACE] Time=1955000 Grant=2
+[OUTPUT] Time=1955000 Packet=814cccc0014 Channel=2 Sequence=20
+[SCOREBOARD PASS] Emergency packet matched: 814cccc0014
+[GRANT TRACE] Time=1965000 Grant=1
+[OUTPUT] Time=1965000 Packet=414bbbb0014 Channel=1 Sequence=20
+[SCOREBOARD PASS] Temperature packet matched: 414bbbb0014
+
+[TEST 3] Emergency priority under contention
+[GRANT TRACE] Time=2805000 Grant=2
+[OUTPUT] Time=2805000 Packet=81ecccc001e Channel=2 Sequence=30
+[SCOREBOARD PASS] Emergency packet matched: 81ecccc001e
+[GRANT TRACE] Time=2815000 Grant=0
+[OUTPUT] Time=2815000 Packet=01eaaaa001e Channel=0 Sequence=30
+[SCOREBOARD PASS] Vibration packet matched: 01eaaaa001e
+[GRANT TRACE] Time=2825000 Grant=2
+[OUTPUT] Time=2825000 Packet=81fcccc001f Channel=2 Sequence=31
+[SCOREBOARD PASS] Emergency packet matched: 81fcccc001f
+[GRANT TRACE] Time=2835000 Grant=1
+[OUTPUT] Time=2835000 Packet=41ebbbb001e Channel=1 Sequence=30
+[SCOREBOARD PASS] Temperature packet matched: 41ebbbb001e
+[GRANT TRACE] Time=2845000 Grant=2
+[OUTPUT] Time=2845000 Packet=820cccc0020 Channel=2 Sequence=32
+[SCOREBOARD PASS] Emergency packet matched: 820cccc0020
+[GRANT TRACE] Time=2855000 Grant=0
+[OUTPUT] Time=2855000 Packet=01faaaa001f Channel=0 Sequence=31
+[SCOREBOARD PASS] Vibration packet matched: 01faaaa001f
+[GRANT TRACE] Time=2865000 Grant=2
+[OUTPUT] Time=2865000 Packet=821cccc0021 Channel=2 Sequence=33
+[SCOREBOARD PASS] Emergency packet matched: 821cccc0021
+[GRANT TRACE] Time=2875000 Grant=1
+[OUTPUT] Time=2875000 Packet=41fbbbb001f Channel=1 Sequence=31
+[SCOREBOARD PASS] Temperature packet matched: 41fbbbb001f
+[GRANT TRACE] Time=2885000 Grant=0
+[OUTPUT] Time=2885000 Packet=020aaaa0020 Channel=0 Sequence=32
+[SCOREBOARD PASS] Vibration packet matched: 020aaaa0020
+[GRANT TRACE] Time=2895000 Grant=1
+[OUTPUT] Time=2895000 Packet=420bbbb0020 Channel=1 Sequence=32
+[SCOREBOARD PASS] Temperature packet matched: 420bbbb0020
+[GRANT TRACE] Time=2905000 Grant=0
+[OUTPUT] Time=2905000 Packet=021aaaa0021 Channel=0 Sequence=33
+[SCOREBOARD PASS] Vibration packet matched: 021aaaa0021
+[GRANT TRACE] Time=2915000 Grant=1
+[OUTPUT] Time=2915000 Packet=421bbbb0021 Channel=1 Sequence=33
+[SCOREBOARD PASS] Temperature packet matched: 421bbbb0021
+[TEST 3 PASS] Emergency priority and burst limit verified
+
+[TEST 4] Round-robin fairness
+[GRANT TRACE] Time=4185000 Grant=0
+[OUTPUT] Time=4185000 Packet=028aaaa0028 Channel=0 Sequence=40
+[FAIRNESS] Output channel=0 Sequence=40
+[SCOREBOARD PASS] Vibration packet matched: 028aaaa0028
+[GRANT TRACE] Time=4195000 Grant=1
+[OUTPUT] Time=4195000 Packet=428bbbb0028 Channel=1 Sequence=40
+[FAIRNESS] Output channel=1 Sequence=40
+[SCOREBOARD PASS] Temperature packet matched: 428bbbb0028
+[GRANT TRACE] Time=4205000 Grant=0
+[OUTPUT] Time=4205000 Packet=029aaaa0029 Channel=0 Sequence=41
+[FAIRNESS] Output channel=0 Sequence=41
+[SCOREBOARD PASS] Vibration packet matched: 029aaaa0029
+[GRANT TRACE] Time=4215000 Grant=1
+[OUTPUT] Time=4215000 Packet=429bbbb0029 Channel=1 Sequence=41
+[FAIRNESS] Output channel=1 Sequence=41
+[SCOREBOARD PASS] Temperature packet matched: 429bbbb0029
+[GRANT TRACE] Time=4225000 Grant=0
+[OUTPUT] Time=4225000 Packet=02aaaaa002a Channel=0 Sequence=42
+[FAIRNESS] Output channel=0 Sequence=42
+[SCOREBOARD PASS] Vibration packet matched: 02aaaaa002a
+[GRANT TRACE] Time=4235000 Grant=1
+[OUTPUT] Time=4235000 Packet=42abbbb002a Channel=1 Sequence=42
+[FAIRNESS] Output channel=1 Sequence=42
+[SCOREBOARD PASS] Temperature packet matched: 42abbbb002a
+[GRANT TRACE] Time=4245000 Grant=0
+[OUTPUT] Time=4245000 Packet=02baaaa002b Channel=0 Sequence=43
+[FAIRNESS] Output channel=0 Sequence=43
+[SCOREBOARD PASS] Vibration packet matched: 02baaaa002b
+[GRANT TRACE] Time=4255000 Grant=1
+[OUTPUT] Time=4255000 Packet=42bbbbb002b Channel=1 Sequence=43
+[FAIRNESS] Output channel=1 Sequence=43
+[SCOREBOARD PASS] Temperature packet matched: 42bbbbb002b
+[GRANT TRACE] Time=4265000 Grant=0
+[OUTPUT] Time=4265000 Packet=02caaaa002c Channel=0 Sequence=44
+[FAIRNESS] Output channel=0 Sequence=44
+[SCOREBOARD PASS] Vibration packet matched: 02caaaa002c
+[GRANT TRACE] Time=4275000 Grant=1
+[OUTPUT] Time=4275000 Packet=42cbbbb002c Channel=1 Sequence=44
+[FAIRNESS] Output channel=1 Sequence=44
+[SCOREBOARD PASS] Temperature packet matched: 42cbbbb002c
+[GRANT TRACE] Time=4285000 Grant=0
+[OUTPUT] Time=4285000 Packet=02daaaa002d Channel=0 Sequence=45
+[FAIRNESS] Output channel=0 Sequence=45
+[SCOREBOARD PASS] Vibration packet matched: 02daaaa002d
+[GRANT TRACE] Time=4295000 Grant=1
+[OUTPUT] Time=4295000 Packet=42dbbbb002d Channel=1 Sequence=45
+[FAIRNESS] Output channel=1 Sequence=45
+[SCOREBOARD PASS] Temperature packet matched: 42dbbbb002d
+[TEST 4 PASS] Round-robin fairness verified
+
+[TEST 5] Full buffer and backpressure recovery
+[TEST 5] Filling vibration buffer...
+[TEST 5] Vibration input blocked
+[TEST 5 PASS] Buffer full condition observed
+[TEST 5] Releasing output backpressure
+[GRANT TRACE] Time=5675000 Grant=0
+[OUTPUT] Time=5675000 Packet=03caaaa003c Channel=0 Sequence=60
+[SCOREBOARD PASS] Vibration packet matched: 03caaaa003c
+[GRANT TRACE] Time=5695000 Grant=0
+[OUTPUT] Time=5695000 Packet=03daaaa003d Channel=0 Sequence=61
+[SCOREBOARD PASS] Vibration packet matched: 03daaaa003d
+[GRANT TRACE] Time=5715000 Grant=0
+[OUTPUT] Time=5715000 Packet=03eaaaa003e Channel=0 Sequence=62
+[SCOREBOARD PASS] Vibration packet matched: 03eaaaa003e
+[GRANT TRACE] Time=5735000 Grant=0
+[OUTPUT] Time=5735000 Packet=03faaaa003f Channel=0 Sequence=63
+[SCOREBOARD PASS] Vibration packet matched: 03faaaa003f
+[GRANT TRACE] Time=5755000 Grant=0
+[OUTPUT] Time=5755000 Packet=040aaaa0040 Channel=0 Sequence=64
+[SCOREBOARD PASS] Vibration packet matched: 040aaaa0040
+[TEST 5] Producer completed all 20 packets
+[GRANT TRACE] Time=5775000 Grant=0
+[OUTPUT] Time=5775000 Packet=041aaaa0041 Channel=0 Sequence=65
+[SCOREBOARD PASS] Vibration packet matched: 041aaaa0041
+[GRANT TRACE] Time=5795000 Grant=0
+[OUTPUT] Time=5795000 Packet=042aaaa0042 Channel=0 Sequence=66
+[SCOREBOARD PASS] Vibration packet matched: 042aaaa0042
+[GRANT TRACE] Time=5815000 Grant=0
+[OUTPUT] Time=5815000 Packet=043aaaa0043 Channel=0 Sequence=67
+[SCOREBOARD PASS] Vibration packet matched: 043aaaa0043
+[GRANT TRACE] Time=5835000 Grant=0
+[OUTPUT] Time=5835000 Packet=044aaaa0044 Channel=0 Sequence=68
+[SCOREBOARD PASS] Vibration packet matched: 044aaaa0044
+[GRANT TRACE] Time=5855000 Grant=0
+[OUTPUT] Time=5855000 Packet=045aaaa0045 Channel=0 Sequence=69
+[SCOREBOARD PASS] Vibration packet matched: 045aaaa0045
+[GRANT TRACE] Time=5875000 Grant=0
+[OUTPUT] Time=5875000 Packet=046aaaa0046 Channel=0 Sequence=70
+[SCOREBOARD PASS] Vibration packet matched: 046aaaa0046
+[GRANT TRACE] Time=5895000 Grant=0
+[OUTPUT] Time=5895000 Packet=047aaaa0047 Channel=0 Sequence=71
+[SCOREBOARD PASS] Vibration packet matched: 047aaaa0047
+[GRANT TRACE] Time=5915000 Grant=0
+[OUTPUT] Time=5915000 Packet=048aaaa0048 Channel=0 Sequence=72
+[SCOREBOARD PASS] Vibration packet matched: 048aaaa0048
+[GRANT TRACE] Time=5935000 Grant=0
+[OUTPUT] Time=5935000 Packet=049aaaa0049 Channel=0 Sequence=73
+[SCOREBOARD PASS] Vibration packet matched: 049aaaa0049
+[GRANT TRACE] Time=5955000 Grant=0
+[OUTPUT] Time=5955000 Packet=04aaaaa004a Channel=0 Sequence=74
+[SCOREBOARD PASS] Vibration packet matched: 04aaaaa004a
+[GRANT TRACE] Time=5975000 Grant=0
+[OUTPUT] Time=5975000 Packet=04baaaa004b Channel=0 Sequence=75
+[SCOREBOARD PASS] Vibration packet matched: 04baaaa004b
+[GRANT TRACE] Time=5995000 Grant=0
+[OUTPUT] Time=5995000 Packet=04caaaa004c Channel=0 Sequence=76
+[SCOREBOARD PASS] Vibration packet matched: 04caaaa004c
+[GRANT TRACE] Time=6015000 Grant=0
+[OUTPUT] Time=6015000 Packet=04daaaa004d Channel=0 Sequence=77
+[SCOREBOARD PASS] Vibration packet matched: 04daaaa004d
+[GRANT TRACE] Time=6035000 Grant=0
+[OUTPUT] Time=6035000 Packet=04eaaaa004e Channel=0 Sequence=78
+[SCOREBOARD PASS] Vibration packet matched: 04eaaaa004e
+[GRANT TRACE] Time=6055000 Grant=0
+[OUTPUT] Time=6055000 Packet=04faaaa004f Channel=0 Sequence=79
+[SCOREBOARD PASS] Vibration packet matched: 04faaaa004f
+
+========== TEST 5 RECOVERY REPORT ==========
+Packets accepted       : 20
+Packets received       : 20
+Scoreboard accepted    : 20
+Scoreboard received    : 20
+Scoreboard pending     : 0
+Scoreboard errors      : 0
+Test 5 errors          : 0
+[TEST 5 PASS] Full buffer and backpressure recovery verified
+============================================
+
+==========================================
+
+==========================================
+
+[TEST 6A] Temperature producer backpressure
+[TEST 6A] Temperature producer blocked
+[TEST 6A PASS] Full buffer observed
+[TEST 6A] Output backpressure released
+[GRANT TRACE] Time=7425000 Grant=1
+[OUTPUT] Time=7425000 Packet=450bbbb0050 Channel=1 Sequence=80
+[SCOREBOARD PASS] Temperature packet matched: 450bbbb0050
+[GRANT TRACE] Time=7445000 Grant=1
+[OUTPUT] Time=7445000 Packet=451bbbb0051 Channel=1 Sequence=81
+[SCOREBOARD PASS] Temperature packet matched: 451bbbb0051
+[GRANT TRACE] Time=7465000 Grant=1
+[OUTPUT] Time=7465000 Packet=452bbbb0052 Channel=1 Sequence=82
+[SCOREBOARD PASS] Temperature packet matched: 452bbbb0052
+[GRANT TRACE] Time=7485000 Grant=1
+[OUTPUT] Time=7485000 Packet=453bbbb0053 Channel=1 Sequence=83
+[SCOREBOARD PASS] Temperature packet matched: 453bbbb0053
+[GRANT TRACE] Time=7505000 Grant=1
+[OUTPUT] Time=7505000 Packet=454bbbb0054 Channel=1 Sequence=84
+[SCOREBOARD PASS] Temperature packet matched: 454bbbb0054
+[GRANT TRACE] Time=7525000 Grant=1
+[OUTPUT] Time=7525000 Packet=455bbbb0055 Channel=1 Sequence=85
+[SCOREBOARD PASS] Temperature packet matched: 455bbbb0055
+[TEST 6A] Producer completed
+[GRANT TRACE] Time=7545000 Grant=1
+[OUTPUT] Time=7545000 Packet=456bbbb0056 Channel=1 Sequence=86
+[SCOREBOARD PASS] Temperature packet matched: 456bbbb0056
+[GRANT TRACE] Time=7565000 Grant=1
+[OUTPUT] Time=7565000 Packet=457bbbb0057 Channel=1 Sequence=87
+[SCOREBOARD PASS] Temperature packet matched: 457bbbb0057
+[GRANT TRACE] Time=7585000 Grant=1
+[OUTPUT] Time=7585000 Packet=458bbbb0058 Channel=1 Sequence=88
+[SCOREBOARD PASS] Temperature packet matched: 458bbbb0058
+[GRANT TRACE] Time=7605000 Grant=1
+[OUTPUT] Time=7605000 Packet=459bbbb0059 Channel=1 Sequence=89
+[SCOREBOARD PASS] Temperature packet matched: 459bbbb0059
+[GRANT TRACE] Time=7625000 Grant=1
+[OUTPUT] Time=7625000 Packet=45abbbb005a Channel=1 Sequence=90
+[SCOREBOARD PASS] Temperature packet matched: 45abbbb005a
+[GRANT TRACE] Time=7645000 Grant=1
+[OUTPUT] Time=7645000 Packet=45bbbbb005b Channel=1 Sequence=91
+[SCOREBOARD PASS] Temperature packet matched: 45bbbbb005b
+[GRANT TRACE] Time=7665000 Grant=1
+[OUTPUT] Time=7665000 Packet=45cbbbb005c Channel=1 Sequence=92
+[SCOREBOARD PASS] Temperature packet matched: 45cbbbb005c
+[GRANT TRACE] Time=7685000 Grant=1
+[OUTPUT] Time=7685000 Packet=45dbbbb005d Channel=1 Sequence=93
+[SCOREBOARD PASS] Temperature packet matched: 45dbbbb005d
+[GRANT TRACE] Time=7705000 Grant=1
+[OUTPUT] Time=7705000 Packet=45ebbbb005e Channel=1 Sequence=94
+[SCOREBOARD PASS] Temperature packet matched: 45ebbbb005e
+[GRANT TRACE] Time=7725000 Grant=1
+[OUTPUT] Time=7725000 Packet=45fbbbb005f Channel=1 Sequence=95
+[SCOREBOARD PASS] Temperature packet matched: 45fbbbb005f
+[GRANT TRACE] Time=7745000 Grant=1
+[OUTPUT] Time=7745000 Packet=460bbbb0060 Channel=1 Sequence=96
+[SCOREBOARD PASS] Temperature packet matched: 460bbbb0060
+[GRANT TRACE] Time=7765000 Grant=1
+[OUTPUT] Time=7765000 Packet=461bbbb0061 Channel=1 Sequence=97
+[SCOREBOARD PASS] Temperature packet matched: 461bbbb0061
+[GRANT TRACE] Time=7785000 Grant=1
+[OUTPUT] Time=7785000 Packet=462bbbb0062 Channel=1 Sequence=98
+[SCOREBOARD PASS] Temperature packet matched: 462bbbb0062
+[GRANT TRACE] Time=7805000 Grant=1
+[OUTPUT] Time=7805000 Packet=463bbbb0063 Channel=1 Sequence=99
+[SCOREBOARD PASS] Temperature packet matched: 463bbbb0063
+
+========== TEST 6A REPORT ==========
+Temperature accepted : 20
+Temperature received : 20
+Scoreboard accepted  : 20
+Scoreboard received  : 20
+Scoreboard pending   : 0
+Scoreboard errors    : 0
+[TEST 6A PASS] Temperature backpressure and recovery verified
+====================================
+
+[TEST 6B] Emergency producer backpressure
+[TEST 6B] Emergency producer blocked
+[TEST 6B PASS] Full buffer observed
+[TEST 6B] Output backpressure released
+[GRANT TRACE] Time=9345000 Grant=2
+[OUTPUT] Time=9345000 Packet=864cccc0064 Channel=2 Sequence=100
+[SCOREBOARD PASS] Emergency packet matched: 864cccc0064
+[GRANT TRACE] Time=9365000 Grant=2
+[OUTPUT] Time=9365000 Packet=865cccc0065 Channel=2 Sequence=101
+[SCOREBOARD PASS] Emergency packet matched: 865cccc0065
+[GRANT TRACE] Time=9385000 Grant=2
+[OUTPUT] Time=9385000 Packet=866cccc0066 Channel=2 Sequence=102
+[SCOREBOARD PASS] Emergency packet matched: 866cccc0066
+[GRANT TRACE] Time=9405000 Grant=2
+[OUTPUT] Time=9405000 Packet=867cccc0067 Channel=2 Sequence=103
+[SCOREBOARD PASS] Emergency packet matched: 867cccc0067
+[GRANT TRACE] Time=9425000 Grant=2
+[OUTPUT] Time=9425000 Packet=868cccc0068 Channel=2 Sequence=104
+[SCOREBOARD PASS] Emergency packet matched: 868cccc0068
+[GRANT TRACE] Time=9445000 Grant=2
+[OUTPUT] Time=9445000 Packet=869cccc0069 Channel=2 Sequence=105
+[SCOREBOARD PASS] Emergency packet matched: 869cccc0069
+[GRANT TRACE] Time=9465000 Grant=2
+[OUTPUT] Time=9465000 Packet=86acccc006a Channel=2 Sequence=106
+[SCOREBOARD PASS] Emergency packet matched: 86acccc006a
+[GRANT TRACE] Time=9485000 Grant=2
+[OUTPUT] Time=9485000 Packet=86bcccc006b Channel=2 Sequence=107
+[SCOREBOARD PASS] Emergency packet matched: 86bcccc006b
+[TEST 6B] Producer completed
+[GRANT TRACE] Time=9505000 Grant=2
+[OUTPUT] Time=9505000 Packet=86ccccc006c Channel=2 Sequence=108
+[SCOREBOARD PASS] Emergency packet matched: 86ccccc006c
+[GRANT TRACE] Time=9525000 Grant=2
+[OUTPUT] Time=9525000 Packet=86dcccc006d Channel=2 Sequence=109
+[SCOREBOARD PASS] Emergency packet matched: 86dcccc006d
+[GRANT TRACE] Time=9545000 Grant=2
+[OUTPUT] Time=9545000 Packet=86ecccc006e Channel=2 Sequence=110
+[SCOREBOARD PASS] Emergency packet matched: 86ecccc006e
+[GRANT TRACE] Time=9565000 Grant=2
+[OUTPUT] Time=9565000 Packet=86fcccc006f Channel=2 Sequence=111
+[SCOREBOARD PASS] Emergency packet matched: 86fcccc006f
+[GRANT TRACE] Time=9585000 Grant=2
+[OUTPUT] Time=9585000 Packet=870cccc0070 Channel=2 Sequence=112
+[SCOREBOARD PASS] Emergency packet matched: 870cccc0070
+[GRANT TRACE] Time=9605000 Grant=2
+[OUTPUT] Time=9605000 Packet=871cccc0071 Channel=2 Sequence=113
+[SCOREBOARD PASS] Emergency packet matched: 871cccc0071
+[GRANT TRACE] Time=9625000 Grant=2
+[OUTPUT] Time=9625000 Packet=872cccc0072 Channel=2 Sequence=114
+[SCOREBOARD PASS] Emergency packet matched: 872cccc0072
+[GRANT TRACE] Time=9645000 Grant=2
+[OUTPUT] Time=9645000 Packet=873cccc0073 Channel=2 Sequence=115
+[SCOREBOARD PASS] Emergency packet matched: 873cccc0073
+[GRANT TRACE] Time=9665000 Grant=2
+[OUTPUT] Time=9665000 Packet=874cccc0074 Channel=2 Sequence=116
+[SCOREBOARD PASS] Emergency packet matched: 874cccc0074
+[GRANT TRACE] Time=9685000 Grant=2
+[OUTPUT] Time=9685000 Packet=875cccc0075 Channel=2 Sequence=117
+[SCOREBOARD PASS] Emergency packet matched: 875cccc0075
+[GRANT TRACE] Time=9705000 Grant=2
+[OUTPUT] Time=9705000 Packet=876cccc0076 Channel=2 Sequence=118
+[SCOREBOARD PASS] Emergency packet matched: 876cccc0076
+[GRANT TRACE] Time=9725000 Grant=2
+[OUTPUT] Time=9725000 Packet=877cccc0077 Channel=2 Sequence=119
+[SCOREBOARD PASS] Emergency packet matched: 877cccc0077
+
+========== TEST 6B REPORT ==========
+Emergency accepted : 20
+Emergency received : 20
+Scoreboard accepted: 20
+Scoreboard received: 20
+Scoreboard pending : 0
+Scoreboard errors  : 0
+[TEST 6B PASS] Emergency backpressure and recovery verified
+
+[TEST 7B] Reset during output backpressure
+[TEST 7B] Output packet stalled
+[TEST 7B] Asserting reset
+[TEST 7B PASS] Stalled packet flushed by reset
+
+[TEST 7C] Reset with packets queued in multiple buffers
+[TEST 7C] Resetting all queued packets
+[TEST 7C PASS] Queued packets flushed successfully
+
+[TEST 7D] Post-reset traffic recovery
+[GRANT TRACE] Time=11445000 Grant=2
+[OUTPUT] Time=11445000 Packet=8c8cccc00c8 Channel=2 Sequence=200
+[SCOREBOARD PASS] Emergency packet matched: 8c8cccc00c8
+[GRANT TRACE] Time=11455000 Grant=0
+[OUTPUT] Time=11455000 Packet=0c8aaaa00c8 Channel=0 Sequence=200
+[SCOREBOARD PASS] Vibration packet matched: 0c8aaaa00c8
+[GRANT TRACE] Time=11465000 Grant=1
+[OUTPUT] Time=11465000 Packet=4c8bbbb00c8 Channel=1 Sequence=200
+[SCOREBOARD PASS] Temperature packet matched: 4c8bbbb00c8
+
+========== TEST 7 REPORT ==========
+Fresh packets accepted : 3
+Fresh packets received : 3
+Fresh packets pending  : 0
+Scoreboard errors      : 0
+Test 7 output count    : 3
+Test 7 errors          : 0
+[TEST 7 PASS] Reset and recovery verified
+==================================
+====================================
+
+[TEST 8] Full-only buffer state coverage
+
+[TEST 8 DEBUG]
+Buffer full  = 001
+Buffer empty = 000
+Full-only state = 1
+[TEST 8 PASS] Full-only buffer state observed
+[GRANT TRACE] Time=12355000 Grant=1
+[OUTPUT] Time=12355000 Packet=4dcbbbb00dc Channel=1 Sequence=220
+[SCOREBOARD PASS] Temperature packet matched: 4dcbbbb00dc
+[GRANT TRACE] Time=12365000 Grant=2
+[OUTPUT] Time=12365000 Packet=8dccccc00dc Channel=2 Sequence=220
+[SCOREBOARD PASS] Emergency packet matched: 8dccccc00dc
+[GRANT TRACE] Time=12375000 Grant=0
+[OUTPUT] Time=12375000 Packet=0dcaaaa00dc Channel=0 Sequence=220
+[SCOREBOARD PASS] Vibration packet matched: 0dcaaaa00dc
+[GRANT TRACE] Time=12385000 Grant=2
+[OUTPUT] Time=12385000 Packet=8ddcccc00dd Channel=2 Sequence=221
+[SCOREBOARD PASS] Emergency packet matched: 8ddcccc00dd
+[GRANT TRACE] Time=12395000 Grant=1
+[OUTPUT] Time=12395000 Packet=4ddbbbb00dd Channel=1 Sequence=221
+[SCOREBOARD PASS] Temperature packet matched: 4ddbbbb00dd
+[GRANT TRACE] Time=12405000 Grant=2
+[OUTPUT] Time=12405000 Packet=8decccc00de Channel=2 Sequence=222
+[SCOREBOARD PASS] Emergency packet matched: 8decccc00de
+[GRANT TRACE] Time=12415000 Grant=0
+[OUTPUT] Time=12415000 Packet=0ddaaaa00dd Channel=0 Sequence=221
+[SCOREBOARD PASS] Vibration packet matched: 0ddaaaa00dd
+[GRANT TRACE] Time=12425000 Grant=1
+[OUTPUT] Time=12425000 Packet=4debbbb00de Channel=1 Sequence=222
+[SCOREBOARD PASS] Temperature packet matched: 4debbbb00de
+[GRANT TRACE] Time=12435000 Grant=0
+[OUTPUT] Time=12435000 Packet=0deaaaa00de Channel=0 Sequence=222
+[SCOREBOARD PASS] Vibration packet matched: 0deaaaa00de
+[GRANT TRACE] Time=12455000 Grant=0
+[OUTPUT] Time=12455000 Packet=0dfaaaa00df Channel=0 Sequence=223
+[SCOREBOARD PASS] Vibration packet matched: 0dfaaaa00df
+[GRANT TRACE] Time=12475000 Grant=0
+[OUTPUT] Time=12475000 Packet=0e0aaaa00e0 Channel=0 Sequence=224
+[SCOREBOARD PASS] Vibration packet matched: 0e0aaaa00e0
+[GRANT TRACE] Time=12495000 Grant=0
+[OUTPUT] Time=12495000 Packet=0e1aaaa00e1 Channel=0 Sequence=225
+[SCOREBOARD PASS] Vibration packet matched: 0e1aaaa00e1
+[GRANT TRACE] Time=12515000 Grant=0
+[OUTPUT] Time=12515000 Packet=0e2aaaa00e2 Channel=0 Sequence=226
+[SCOREBOARD PASS] Vibration packet matched: 0e2aaaa00e2
+[GRANT TRACE] Time=12535000 Grant=0
+[OUTPUT] Time=12535000 Packet=0e3aaaa00e3 Channel=0 Sequence=227
+[SCOREBOARD PASS] Vibration packet matched: 0e3aaaa00e3
+[GRANT TRACE] Time=12555000 Grant=0
+[OUTPUT] Time=12555000 Packet=0e4aaaa00e4 Channel=0 Sequence=228
+[SCOREBOARD PASS] Vibration packet matched: 0e4aaaa00e4
+[GRANT TRACE] Time=12575000 Grant=0
+[OUTPUT] Time=12575000 Packet=0e5aaaa00e5 Channel=0 Sequence=229
+[SCOREBOARD PASS] Vibration packet matched: 0e5aaaa00e5
+[GRANT TRACE] Time=12595000 Grant=0
+[OUTPUT] Time=12595000 Packet=0e6aaaa00e6 Channel=0 Sequence=230
+[SCOREBOARD PASS] Vibration packet matched: 0e6aaaa00e6
+[GRANT TRACE] Time=12615000 Grant=0
+[OUTPUT] Time=12615000 Packet=0e7aaaa00e7 Channel=0 Sequence=231
+[SCOREBOARD PASS] Vibration packet matched: 0e7aaaa00e7
+[GRANT TRACE] Time=12635000 Grant=0
+[OUTPUT] Time=12635000 Packet=0e8aaaa00e8 Channel=0 Sequence=232
+[SCOREBOARD PASS] Vibration packet matched: 0e8aaaa00e8
+[GRANT TRACE] Time=12655000 Grant=0
+[OUTPUT] Time=12655000 Packet=0e9aaaa00e9 Channel=0 Sequence=233
+[SCOREBOARD PASS] Vibration packet matched: 0e9aaaa00e9
+[GRANT TRACE] Time=12675000 Grant=0
+[OUTPUT] Time=12675000 Packet=0eaaaaa00ea Channel=0 Sequence=234
+[SCOREBOARD PASS] Vibration packet matched: 0eaaaaa00ea
+[GRANT TRACE] Time=12695000 Grant=0
+[OUTPUT] Time=12695000 Packet=0ebaaaa00eb Channel=0 Sequence=235
+[SCOREBOARD PASS] Vibration packet matched: 0ebaaaa00eb
+[GRANT TRACE] Time=12715000 Grant=0
+[OUTPUT] Time=12715000 Packet=0ecaaaa00ec Channel=0 Sequence=236
+[SCOREBOARD PASS] Vibration packet matched: 0ecaaaa00ec
+[TEST 8 PASS] Multi-buffer drain successful
+
+[TEST 9A] Emergency burst followed by vibration
+[TEST 9A] First emergency packet staged
+[TEST 9A] Releasing output
+[GRANT TRACE] Time=13405000 Grant=2
+[OUTPUT] Time=13405000 Packet=8f0cccc00f0 Channel=2 Sequence=240
+[SCOREBOARD PASS] Emergency packet matched: 8f0cccc00f0
+[GRANT TRACE] Time=13415000 Grant=0
+[OUTPUT] Time=13415000 Packet=0f0aaaa00f0 Channel=0 Sequence=240
+[SCOREBOARD PASS] Vibration packet matched: 0f0aaaa00f0
+[GRANT TRACE] Time=13425000 Grant=2
+[OUTPUT] Time=13425000 Packet=8f1cccc00f1 Channel=2 Sequence=241
+[SCOREBOARD PASS] Emergency packet matched: 8f1cccc00f1
+[GRANT TRACE] Time=13435000 Grant=0
+[OUTPUT] Time=13435000 Packet=0f1aaaa00f1 Channel=0 Sequence=241
+[SCOREBOARD PASS] Vibration packet matched: 0f1aaaa00f1
+[GRANT TRACE] Time=13445000 Grant=2
+[OUTPUT] Time=13445000 Packet=8f2cccc00f2 Channel=2 Sequence=242
+[SCOREBOARD PASS] Emergency packet matched: 8f2cccc00f2
+[TEST 9A PASS] Emergency burst and vibration recovery
+
+[TEST 9B] Emergency burst followed by temperature
+[TEST 9B] First emergency packet staged
+[TEST 9B] Releasing output
+[GRANT TRACE] Time=13935000 Grant=2
+[OUTPUT] Time=13935000 Packet=8facccc00fa Channel=2 Sequence=250
+[SCOREBOARD PASS] Emergency packet matched: 8facccc00fa
+[GRANT TRACE] Time=13955000 Grant=2
+[OUTPUT] Time=13955000 Packet=8fbcccc00fb Channel=2 Sequence=251
+[SCOREBOARD PASS] Emergency packet matched: 8fbcccc00fb
+[GRANT TRACE] Time=13965000 Grant=1
+[OUTPUT] Time=13965000 Packet=4fabbbb00fa Channel=1 Sequence=250
+[SCOREBOARD PASS] Temperature packet matched: 4fabbbb00fa
+[GRANT TRACE] Time=13975000 Grant=2
+[OUTPUT] Time=13975000 Packet=8fccccc00fc Channel=2 Sequence=252
+[SCOREBOARD PASS] Emergency packet matched: 8fccccc00fc
+[GRANT TRACE] Time=13985000 Grant=1
+[OUTPUT] Time=13985000 Packet=4fbbbbb00fb Channel=1 Sequence=251
+[SCOREBOARD PASS] Temperature packet matched: 4fbbbbb00fb
+[TEST 9B PASS] Emergency burst and temperature recovery
+
+[TEST 10] Vibration grant under full contention
+[GRANT TRACE] Time=14425000 Grant=2
+[OUTPUT] Time=14425000 Packet=804cccc0104 Channel=2 Sequence=4
+[SCOREBOARD PASS] Emergency packet matched: 804cccc0104
+[GRANT TRACE] Time=14465000 Grant=2
+[OUTPUT] Time=14465000 Packet=805cccc0105 Channel=2 Sequence=5
+[SCOREBOARD PASS] Emergency packet matched: 805cccc0105
+[TEST 10] Emergency streak reached maximum
+[TEST 10] Vibration grant locked during stall
+[TEST 10] All three scheduler inputs valid
+[TEST 10] Selected grant = 0
+[GRANT TRACE] Time=14625000 Grant=0
+[OUTPUT] Time=14625000 Packet=004aaaa0104 Channel=0 Sequence=4
+[SCOREBOARD PASS] Vibration packet matched: 004aaaa0104
+[GRANT TRACE] Time=14635000 Grant=2
+[OUTPUT] Time=14635000 Packet=806cccc0106 Channel=2 Sequence=6
+[SCOREBOARD PASS] Emergency packet matched: 806cccc0106
+[GRANT TRACE] Time=14645000 Grant=1
+[OUTPUT] Time=14645000 Packet=404bbbb0104 Channel=1 Sequence=4
+[SCOREBOARD PASS] Temperature packet matched: 404bbbb0104
+[TEST 10 PASS] All contention packets drained
+
+[TEST 11] Packet type and channel cross coverage
+[TEST 11] Temperature packet type=0 sent
+[TEST 11] Vibration packet type=0 sent
+[TEST 11] Emergency packet type=0 sent
+[TEST 11] Vibration packet type=1 sent
+[TEST 11] Temperature packet type=1 sent
+[TEST 11] Vibration packet type=2 sent
+[GRANT TRACE] Time=15095000 Grant=1
+[OUTPUT] Time=15095000 Packet=418bbbb0118 Channel=1 Sequence=24
+[SCOREBOARD PASS] Temperature packet matched: 418bbbb0118
+[TEST 11] Emergency packet type=1 sent
+[GRANT TRACE] Time=15105000 Grant=0
+[OUTPUT] Time=15105000 Packet=00eaaaa010e Channel=0 Sequence=14
+[SCOREBOARD PASS] Vibration packet matched: 00eaaaa010e
+[TEST 11] Temperature packet type=2 sent
+[TEST 11] Vibration packet type=3 sent
+[GRANT TRACE] Time=15115000 Grant=2
+[OUTPUT] Time=15115000 Packet=822cccc0122 Channel=2 Sequence=34
+[SCOREBOARD PASS] Emergency packet matched: 822cccc0122
+[GRANT TRACE] Time=15125000 Grant=1
+[OUTPUT] Time=15125000 Packet=519bbbb0119 Channel=1 Sequence=25
+[SCOREBOARD PASS] Temperature packet matched: 519bbbb0119
+[TEST 11] Temperature packet type=3 sent
+[GRANT TRACE] Time=15135000 Grant=0
+[OUTPUT] Time=15135000 Packet=10faaaa010f Channel=0 Sequence=15
+[SCOREBOARD PASS] Vibration packet matched: 10faaaa010f
+[TEST 11] Emergency packet type=2 sent
+[GRANT TRACE] Time=15145000 Grant=2
+[OUTPUT] Time=15145000 Packet=923cccc0123 Channel=2 Sequence=35
+[SCOREBOARD PASS] Emergency packet matched: 923cccc0123
+[GRANT TRACE] Time=15155000 Grant=1
+[OUTPUT] Time=15155000 Packet=61abbbb011a Channel=1 Sequence=26
+[SCOREBOARD PASS] Temperature packet matched: 61abbbb011a
+[GRANT TRACE] Time=15165000 Grant=0
+[OUTPUT] Time=15165000 Packet=210aaaa0110 Channel=0 Sequence=16
+[SCOREBOARD PASS] Vibration packet matched: 210aaaa0110
+[TEST 11] Emergency packet type=3 sent
+[GRANT TRACE] Time=15185000 Grant=2
+[OUTPUT] Time=15185000 Packet=a24cccc0124 Channel=2 Sequence=36
+[SCOREBOARD PASS] Emergency packet matched: a24cccc0124
+[GRANT TRACE] Time=15195000 Grant=1
+[OUTPUT] Time=15195000 Packet=71bbbbb011b Channel=1 Sequence=27
+[SCOREBOARD PASS] Temperature packet matched: 71bbbbb011b
+[GRANT TRACE] Time=15205000 Grant=0
+[OUTPUT] Time=15205000 Packet=311aaaa0111 Channel=0 Sequence=17
+[SCOREBOARD PASS] Vibration packet matched: 311aaaa0111
+[GRANT TRACE] Time=15225000 Grant=2
+[OUTPUT] Time=15225000 Packet=b25cccc0125 Channel=2 Sequence=37
+[SCOREBOARD PASS] Emergency packet matched: b25cccc0125
+
+========== TEST 11 REPORT ==========
+Packets accepted : 12
+Packets received : 12
+Packets pending  : 0
+Scoreboard errors: 0
+[TEST 11 PASS] All 12 channel/type combinations verified
+====================================
+==============================================
+ TELEMETRY INTEGRATION TEST REPORT
+==========================================
+Packets accepted    : 12
+Packets received    : 12
+Packets pending     : 0
+Scoreboard errors   : 0
+Backpressure errors : 0
+Priority test outputs: 12
+Priority test errors : 0
+
+
+========== TEST 4 FAIRNESS REPORT ==========
+Vibration packets                  : 6
+Temperature packets                : 6
+Total outputs                      : 12
+Consecutive same-channel violations: 0
+Scoreboard errors                  : 0
+Pending packets                    : 0
+============================================
+
+========== PERFORMANCE REPORT ==========
+Vibration accepted  : 66
+Temperature accepted: 49
+Emergency accepted  : 48
+-----------------------------------------
+Vibration received  : 63
+Temperature received: 47
+Emergency received  : 46
+-----------------------------------------
+Output transfer cycles: 156
+Output stall cycles   : 261
+=========================================
+Test 6A temperature errors: 0
+Test 6B emergency errors  : 0
+Test 7 reset errors: 0
+[FINAL RESULT] ALL TESTS PASSED
+==========================================
+
+
+==========================================
+          TELEMETRY SVA REPORT
+==========================================
+
+--- OUTPUT ASSERTION RESULTS ---
+Output stability          : PASS
+Valid packet known        : PASS
+Buffer status             : PASS
+Valid held during stall   : PASS
+Invalid output zero       : PASS
+
+--- PRODUCER ASSERTION RESULTS ---
+Vibration producer        : PASS
+Temperature producer      : PASS
+Emergency producer        : PASS
+
+--- FAILURE COUNTERS ---
+Output stability failures : 0
+Known packet failures     : 0
+Buffer status failures    : 0
+Output valid stall failures: 0
+Invalid output failures   : 0
+Vibration valid failures  : 0
+Vibration data failures   : 0
+Temperature valid failures: 0
+Temperature data failures: 0
+Emergency valid failures  : 0
+Emergency data failures   : 0
+
+--- SCENARIO OBSERVATIONS ---
+Output stability observations: 261
+Known packet observations    : 417
+Buffer status samples        : 1533
+Output backpressure cycles   : 261
+Valid output cycles          : 417
+Buffer full cycles           : 44
+Buffer empty cycles          : 1470
+Vibration producer stalls    : 6
+Temperature producer stalls  : 7
+Emergency producer stalls    : 7
+==========================================
+
+
+==========================================
+       TELEMETRY FUNCTIONAL COVERAGE
+==========================================
+Overall Coverage          : 100.00%
+------------------------------------------
+Individual Coverpoint Coverage
+------------------------------------------
+Channel                   : 100.00%
+Packet Type               : 100.00%
+Channel x Packet Type     : 100.00%
+Backpressure              : 100.00%
+Buffer Full               : 100.00%
+Buffer Empty              : 100.00%
+Buffer State              : 100.00%
+Scheduler Grant           : 100.00%
+Contention                : 100.00%
+Grant x Contention        : 100.00%
+Normal Round Robin        : 100.00%
+Emergency Burst           : 100.00%
+Grant Lock                : 100.00%
+Scheduler Idle            : 100.00%
+==========================================
+
+========== COVERAGE BIN DIAGNOSTICS ==========
+
+Buffer State Counts:
+  00 Both inactive : 59
+  01 Empty only    : 1430
+  10 Full only     : 4
+  11 Both active   : 40
+
+Grant/Contention Observations:
+  Normal only      : 108
+  Emergency only   : 31
+  Both             : 17
+
+Emergency Burst Coverage:
+  Two emergency then vibration : Check covergroup
+  Two emergency then temperature: Check covergroup
+
+Grant x Contention Bin Counts:
+Vibration   : Normal=62 Both=1
+Temperature : Normal=46 Both=1
+Emergency   : Emergency=31 Both=15
+===============================================
+$finish called at time : 16170 ns : File "C:/Vivado/Telemetry_Verification_Clean_New/system_tb/telemetry_concentrator_tb.sv" Line 1879
+Fatal: [FATAL] Integration test timeout
+Time: 50 us  Iteration: 0  Process: /telemetry_concentrator_tb/Initial1882_102  Scope: telemetry_concentrator_tb  File: C:/Vivado/Telemetry_Verification_Clean_New/system_tb/telemetry_concentrator_tb.sv Line: 1884
+$finish called at time : 50 us
+
+==========================================
+ TELEMETRY CONCENTRATOR INTEGRATION TEST
+==========================================
+
+[TEST 1] Simultaneous multi-channel traffic
+[GRANT TRACE] Time=185000 Grant=1
+[OUTPUT] Time=185000 Packet=400bbbb0000 Channel=1 Sequence=0
+[SCOREBOARD PASS] Temperature packet matched: 400bbbb0000
+[GRANT TRACE] Time=195000 Grant=2
+[OUTPUT] Time=195000 Packet=800cccc0000 Channel=2 Sequence=0
+[SCOREBOARD PASS] Emergency packet matched: 800cccc0000
+[GRANT TRACE] Time=205000 Grant=0
+[OUTPUT] Time=205000 Packet=000aaaa0000 Channel=0 Sequence=0
+[SCOREBOARD PASS] Vibration packet matched: 000aaaa0000
+[GRANT TRACE] Time=215000 Grant=1
+[OUTPUT] Time=215000 Packet=401bbbb0001 Channel=1 Sequence=1
+[SCOREBOARD PASS] Temperature packet matched: 401bbbb0001
+[GRANT TRACE] Time=225000 Grant=2
+[OUTPUT] Time=225000 Packet=801cccc0001 Channel=2 Sequence=1
+[SCOREBOARD PASS] Emergency packet matched: 801cccc0001
+[GRANT TRACE] Time=235000 Grant=0
+[OUTPUT] Time=235000 Packet=001aaaa0001 Channel=0 Sequence=1
+[SCOREBOARD PASS] Vibration packet matched: 001aaaa0001
+[GRANT TRACE] Time=245000 Grant=1
+[OUTPUT] Time=245000 Packet=402bbbb0002 Channel=1 Sequence=2
+[SCOREBOARD PASS] Temperature packet matched: 402bbbb0002
+[GRANT TRACE] Time=255000 Grant=0
+[OUTPUT] Time=255000 Packet=002aaaa0002 Channel=0 Sequence=2
+[SCOREBOARD PASS] Vibration packet matched: 002aaaa0002
+[GRANT TRACE] Time=265000 Grant=2
+[OUTPUT] Time=265000 Packet=802cccc0002 Channel=2 Sequence=2
+[SCOREBOARD PASS] Emergency packet matched: 802cccc0002
+[GRANT TRACE] Time=275000 Grant=1
+[OUTPUT] Time=275000 Packet=403bbbb0003 Channel=1 Sequence=3
+[SCOREBOARD PASS] Temperature packet matched: 403bbbb0003
+[GRANT TRACE] Time=285000 Grant=0
+[OUTPUT] Time=285000 Packet=003aaaa0003 Channel=0 Sequence=3
+[SCOREBOARD PASS] Vibration packet matched: 003aaaa0003
+[GRANT TRACE] Time=295000 Grant=2
+[OUTPUT] Time=295000 Packet=803cccc0003 Channel=2 Sequence=3
+[SCOREBOARD PASS] Emergency packet matched: 803cccc0003
+[GRANT TRACE] Time=305000 Grant=1
+[OUTPUT] Time=305000 Packet=404bbbb0004 Channel=1 Sequence=4
+[SCOREBOARD PASS] Temperature packet matched: 404bbbb0004
+[GRANT TRACE] Time=315000 Grant=0
+[OUTPUT] Time=315000 Packet=004aaaa0004 Channel=0 Sequence=4
+[SCOREBOARD PASS] Vibration packet matched: 004aaaa0004
+[GRANT TRACE] Time=335000 Grant=0
+[OUTPUT] Time=335000 Packet=005aaaa0005 Channel=0 Sequence=5
+[SCOREBOARD PASS] Vibration packet matched: 005aaaa0005
+[GRANT TRACE] Time=355000 Grant=0
+[OUTPUT] Time=355000 Packet=006aaaa0006 Channel=0 Sequence=6
+[SCOREBOARD PASS] Vibration packet matched: 006aaaa0006
+[GRANT TRACE] Time=375000 Grant=0
+[OUTPUT] Time=375000 Packet=007aaaa0007 Channel=0 Sequence=7
+[SCOREBOARD PASS] Vibration packet matched: 007aaaa0007
+
+[TEST 2] Output backpressure
+[PASS] Output stable during backpressure
+[GRANT TRACE] Time=1955000 Grant=2
+[OUTPUT] Time=1955000 Packet=814cccc0014 Channel=2 Sequence=20
+[SCOREBOARD PASS] Emergency packet matched: 814cccc0014
+[GRANT TRACE] Time=1965000 Grant=1
+[OUTPUT] Time=1965000 Packet=414bbbb0014 Channel=1 Sequence=20
+[SCOREBOARD PASS] Temperature packet matched: 414bbbb0014
+
+[TEST 3] Emergency priority under contention
+[GRANT TRACE] Time=2805000 Grant=2
+[OUTPUT] Time=2805000 Packet=81ecccc001e Channel=2 Sequence=30
+[SCOREBOARD PASS] Emergency packet matched: 81ecccc001e
+[GRANT TRACE] Time=2815000 Grant=0
+[OUTPUT] Time=2815000 Packet=01eaaaa001e Channel=0 Sequence=30
+[SCOREBOARD PASS] Vibration packet matched: 01eaaaa001e
+[GRANT TRACE] Time=2825000 Grant=2
+[OUTPUT] Time=2825000 Packet=81fcccc001f Channel=2 Sequence=31
+[SCOREBOARD PASS] Emergency packet matched: 81fcccc001f
+[GRANT TRACE] Time=2835000 Grant=1
+[OUTPUT] Time=2835000 Packet=41ebbbb001e Channel=1 Sequence=30
+[SCOREBOARD PASS] Temperature packet matched: 41ebbbb001e
+[GRANT TRACE] Time=2845000 Grant=2
+[OUTPUT] Time=2845000 Packet=820cccc0020 Channel=2 Sequence=32
+[SCOREBOARD PASS] Emergency packet matched: 820cccc0020
+[GRANT TRACE] Time=2855000 Grant=0
+[OUTPUT] Time=2855000 Packet=01faaaa001f Channel=0 Sequence=31
+[SCOREBOARD PASS] Vibration packet matched: 01faaaa001f
+[GRANT TRACE] Time=2865000 Grant=2
+[OUTPUT] Time=2865000 Packet=821cccc0021 Channel=2 Sequence=33
+[SCOREBOARD PASS] Emergency packet matched: 821cccc0021
+[GRANT TRACE] Time=2875000 Grant=1
+[OUTPUT] Time=2875000 Packet=41fbbbb001f Channel=1 Sequence=31
+[SCOREBOARD PASS] Temperature packet matched: 41fbbbb001f
+[GRANT TRACE] Time=2885000 Grant=0
+[OUTPUT] Time=2885000 Packet=020aaaa0020 Channel=0 Sequence=32
+[SCOREBOARD PASS] Vibration packet matched: 020aaaa0020
+[GRANT TRACE] Time=2895000 Grant=1
+[OUTPUT] Time=2895000 Packet=420bbbb0020 Channel=1 Sequence=32
+[SCOREBOARD PASS] Temperature packet matched: 420bbbb0020
+[GRANT TRACE] Time=2905000 Grant=0
+[OUTPUT] Time=2905000 Packet=021aaaa0021 Channel=0 Sequence=33
+[SCOREBOARD PASS] Vibration packet matched: 021aaaa0021
+[GRANT TRACE] Time=2915000 Grant=1
+[OUTPUT] Time=2915000 Packet=421bbbb0021 Channel=1 Sequence=33
+[SCOREBOARD PASS] Temperature packet matched: 421bbbb0021
+[TEST 3 PASS] Emergency priority and burst limit verified
+
+[TEST 4] Round-robin fairness
+[GRANT TRACE] Time=4185000 Grant=0
+[OUTPUT] Time=4185000 Packet=028aaaa0028 Channel=0 Sequence=40
+[FAIRNESS] Output channel=0 Sequence=40
+[SCOREBOARD PASS] Vibration packet matched: 028aaaa0028
+[GRANT TRACE] Time=4195000 Grant=1
+[OUTPUT] Time=4195000 Packet=428bbbb0028 Channel=1 Sequence=40
+[FAIRNESS] Output channel=1 Sequence=40
+[SCOREBOARD PASS] Temperature packet matched: 428bbbb0028
+[GRANT TRACE] Time=4205000 Grant=0
+[OUTPUT] Time=4205000 Packet=029aaaa0029 Channel=0 Sequence=41
+[FAIRNESS] Output channel=0 Sequence=41
+[SCOREBOARD PASS] Vibration packet matched: 029aaaa0029
+[GRANT TRACE] Time=4215000 Grant=1
+[OUTPUT] Time=4215000 Packet=429bbbb0029 Channel=1 Sequence=41
+[FAIRNESS] Output channel=1 Sequence=41
+[SCOREBOARD PASS] Temperature packet matched: 429bbbb0029
+[GRANT TRACE] Time=4225000 Grant=0
+[OUTPUT] Time=4225000 Packet=02aaaaa002a Channel=0 Sequence=42
+[FAIRNESS] Output channel=0 Sequence=42
+[SCOREBOARD PASS] Vibration packet matched: 02aaaaa002a
+[GRANT TRACE] Time=4235000 Grant=1
+[OUTPUT] Time=4235000 Packet=42abbbb002a Channel=1 Sequence=42
+[FAIRNESS] Output channel=1 Sequence=42
+[SCOREBOARD PASS] Temperature packet matched: 42abbbb002a
+[GRANT TRACE] Time=4245000 Grant=0
+[OUTPUT] Time=4245000 Packet=02baaaa002b Channel=0 Sequence=43
+[FAIRNESS] Output channel=0 Sequence=43
+[SCOREBOARD PASS] Vibration packet matched: 02baaaa002b
+[GRANT TRACE] Time=4255000 Grant=1
+[OUTPUT] Time=4255000 Packet=42bbbbb002b Channel=1 Sequence=43
+[FAIRNESS] Output channel=1 Sequence=43
+[SCOREBOARD PASS] Temperature packet matched: 42bbbbb002b
+[GRANT TRACE] Time=4265000 Grant=0
+[OUTPUT] Time=4265000 Packet=02caaaa002c Channel=0 Sequence=44
+[FAIRNESS] Output channel=0 Sequence=44
+[SCOREBOARD PASS] Vibration packet matched: 02caaaa002c
+[GRANT TRACE] Time=4275000 Grant=1
+[OUTPUT] Time=4275000 Packet=42cbbbb002c Channel=1 Sequence=44
+[FAIRNESS] Output channel=1 Sequence=44
+[SCOREBOARD PASS] Temperature packet matched: 42cbbbb002c
+[GRANT TRACE] Time=4285000 Grant=0
+[OUTPUT] Time=4285000 Packet=02daaaa002d Channel=0 Sequence=45
+[FAIRNESS] Output channel=0 Sequence=45
+[SCOREBOARD PASS] Vibration packet matched: 02daaaa002d
+[GRANT TRACE] Time=4295000 Grant=1
+[OUTPUT] Time=4295000 Packet=42dbbbb002d Channel=1 Sequence=45
+[FAIRNESS] Output channel=1 Sequence=45
+[SCOREBOARD PASS] Temperature packet matched: 42dbbbb002d
+[TEST 4 PASS] Round-robin fairness verified
+
+[TEST 5] Full buffer and backpressure recovery
+[TEST 5] Filling vibration buffer...
+[TEST 5] Vibration input blocked
+[TEST 5 PASS] Buffer full condition observed
+[TEST 5] Releasing output backpressure
+[GRANT TRACE] Time=5675000 Grant=0
+[OUTPUT] Time=5675000 Packet=03caaaa003c Channel=0 Sequence=60
+[SCOREBOARD PASS] Vibration packet matched: 03caaaa003c
+[GRANT TRACE] Time=5695000 Grant=0
+[OUTPUT] Time=5695000 Packet=03daaaa003d Channel=0 Sequence=61
+[SCOREBOARD PASS] Vibration packet matched: 03daaaa003d
+[GRANT TRACE] Time=5715000 Grant=0
+[OUTPUT] Time=5715000 Packet=03eaaaa003e Channel=0 Sequence=62
+[SCOREBOARD PASS] Vibration packet matched: 03eaaaa003e
+[GRANT TRACE] Time=5735000 Grant=0
+[OUTPUT] Time=5735000 Packet=03faaaa003f Channel=0 Sequence=63
+[SCOREBOARD PASS] Vibration packet matched: 03faaaa003f
+[GRANT TRACE] Time=5755000 Grant=0
+[OUTPUT] Time=5755000 Packet=040aaaa0040 Channel=0 Sequence=64
+[SCOREBOARD PASS] Vibration packet matched: 040aaaa0040
+[TEST 5] Producer completed all 20 packets
+[GRANT TRACE] Time=5775000 Grant=0
+[OUTPUT] Time=5775000 Packet=041aaaa0041 Channel=0 Sequence=65
+[SCOREBOARD PASS] Vibration packet matched: 041aaaa0041
+[GRANT TRACE] Time=5795000 Grant=0
+[OUTPUT] Time=5795000 Packet=042aaaa0042 Channel=0 Sequence=66
+[SCOREBOARD PASS] Vibration packet matched: 042aaaa0042
+[GRANT TRACE] Time=5815000 Grant=0
+[OUTPUT] Time=5815000 Packet=043aaaa0043 Channel=0 Sequence=67
+[SCOREBOARD PASS] Vibration packet matched: 043aaaa0043
+[GRANT TRACE] Time=5835000 Grant=0
+[OUTPUT] Time=5835000 Packet=044aaaa0044 Channel=0 Sequence=68
+[SCOREBOARD PASS] Vibration packet matched: 044aaaa0044
+[GRANT TRACE] Time=5855000 Grant=0
+[OUTPUT] Time=5855000 Packet=045aaaa0045 Channel=0 Sequence=69
+[SCOREBOARD PASS] Vibration packet matched: 045aaaa0045
+[GRANT TRACE] Time=5875000 Grant=0
+[OUTPUT] Time=5875000 Packet=046aaaa0046 Channel=0 Sequence=70
+[SCOREBOARD PASS] Vibration packet matched: 046aaaa0046
+[GRANT TRACE] Time=5895000 Grant=0
+[OUTPUT] Time=5895000 Packet=047aaaa0047 Channel=0 Sequence=71
+[SCOREBOARD PASS] Vibration packet matched: 047aaaa0047
+[GRANT TRACE] Time=5915000 Grant=0
+[OUTPUT] Time=5915000 Packet=048aaaa0048 Channel=0 Sequence=72
+[SCOREBOARD PASS] Vibration packet matched: 048aaaa0048
+[GRANT TRACE] Time=5935000 Grant=0
+[OUTPUT] Time=5935000 Packet=049aaaa0049 Channel=0 Sequence=73
+[SCOREBOARD PASS] Vibration packet matched: 049aaaa0049
+[GRANT TRACE] Time=5955000 Grant=0
+[OUTPUT] Time=5955000 Packet=04aaaaa004a Channel=0 Sequence=74
+[SCOREBOARD PASS] Vibration packet matched: 04aaaaa004a
+[GRANT TRACE] Time=5975000 Grant=0
+[OUTPUT] Time=5975000 Packet=04baaaa004b Channel=0 Sequence=75
+[SCOREBOARD PASS] Vibration packet matched: 04baaaa004b
+[GRANT TRACE] Time=5995000 Grant=0
+[OUTPUT] Time=5995000 Packet=04caaaa004c Channel=0 Sequence=76
+[SCOREBOARD PASS] Vibration packet matched: 04caaaa004c
+[GRANT TRACE] Time=6015000 Grant=0
+[OUTPUT] Time=6015000 Packet=04daaaa004d Channel=0 Sequence=77
+[SCOREBOARD PASS] Vibration packet matched: 04daaaa004d
+[GRANT TRACE] Time=6035000 Grant=0
+[OUTPUT] Time=6035000 Packet=04eaaaa004e Channel=0 Sequence=78
+[SCOREBOARD PASS] Vibration packet matched: 04eaaaa004e
+[GRANT TRACE] Time=6055000 Grant=0
+[OUTPUT] Time=6055000 Packet=04faaaa004f Channel=0 Sequence=79
+[SCOREBOARD PASS] Vibration packet matched: 04faaaa004f
+
+========== TEST 5 RECOVERY REPORT ==========
+Packets accepted       : 20
+Packets received       : 20
+Scoreboard accepted    : 20
+Scoreboard received    : 20
+Scoreboard pending     : 0
+Scoreboard errors      : 0
+Test 5 errors          : 0
+[TEST 5 PASS] Full buffer and backpressure recovery verified
+============================================
+
+==========================================
+
+==========================================
+
+[TEST 6A] Temperature producer backpressure
+[TEST 6A] Temperature producer blocked
+[TEST 6A PASS] Full buffer observed
+[TEST 6A] Output backpressure released
+[GRANT TRACE] Time=7425000 Grant=1
+[OUTPUT] Time=7425000 Packet=450bbbb0050 Channel=1 Sequence=80
+[SCOREBOARD PASS] Temperature packet matched: 450bbbb0050
+[GRANT TRACE] Time=7445000 Grant=1
+[OUTPUT] Time=7445000 Packet=451bbbb0051 Channel=1 Sequence=81
+[SCOREBOARD PASS] Temperature packet matched: 451bbbb0051
+[GRANT TRACE] Time=7465000 Grant=1
+[OUTPUT] Time=7465000 Packet=452bbbb0052 Channel=1 Sequence=82
+[SCOREBOARD PASS] Temperature packet matched: 452bbbb0052
+[GRANT TRACE] Time=7485000 Grant=1
+[OUTPUT] Time=7485000 Packet=453bbbb0053 Channel=1 Sequence=83
+[SCOREBOARD PASS] Temperature packet matched: 453bbbb0053
+[GRANT TRACE] Time=7505000 Grant=1
+[OUTPUT] Time=7505000 Packet=454bbbb0054 Channel=1 Sequence=84
+[SCOREBOARD PASS] Temperature packet matched: 454bbbb0054
+[GRANT TRACE] Time=7525000 Grant=1
+[OUTPUT] Time=7525000 Packet=455bbbb0055 Channel=1 Sequence=85
+[SCOREBOARD PASS] Temperature packet matched: 455bbbb0055
+[TEST 6A] Producer completed
+[GRANT TRACE] Time=7545000 Grant=1
+[OUTPUT] Time=7545000 Packet=456bbbb0056 Channel=1 Sequence=86
+[SCOREBOARD PASS] Temperature packet matched: 456bbbb0056
+[GRANT TRACE] Time=7565000 Grant=1
+[OUTPUT] Time=7565000 Packet=457bbbb0057 Channel=1 Sequence=87
+[SCOREBOARD PASS] Temperature packet matched: 457bbbb0057
+[GRANT TRACE] Time=7585000 Grant=1
+[OUTPUT] Time=7585000 Packet=458bbbb0058 Channel=1 Sequence=88
+[SCOREBOARD PASS] Temperature packet matched: 458bbbb0058
+[GRANT TRACE] Time=7605000 Grant=1
+[OUTPUT] Time=7605000 Packet=459bbbb0059 Channel=1 Sequence=89
+[SCOREBOARD PASS] Temperature packet matched: 459bbbb0059
+[GRANT TRACE] Time=7625000 Grant=1
+[OUTPUT] Time=7625000 Packet=45abbbb005a Channel=1 Sequence=90
+[SCOREBOARD PASS] Temperature packet matched: 45abbbb005a
+[GRANT TRACE] Time=7645000 Grant=1
+[OUTPUT] Time=7645000 Packet=45bbbbb005b Channel=1 Sequence=91
+[SCOREBOARD PASS] Temperature packet matched: 45bbbbb005b
+[GRANT TRACE] Time=7665000 Grant=1
+[OUTPUT] Time=7665000 Packet=45cbbbb005c Channel=1 Sequence=92
+[SCOREBOARD PASS] Temperature packet matched: 45cbbbb005c
+[GRANT TRACE] Time=7685000 Grant=1
+[OUTPUT] Time=7685000 Packet=45dbbbb005d Channel=1 Sequence=93
+[SCOREBOARD PASS] Temperature packet matched: 45dbbbb005d
+[GRANT TRACE] Time=7705000 Grant=1
+[OUTPUT] Time=7705000 Packet=45ebbbb005e Channel=1 Sequence=94
+[SCOREBOARD PASS] Temperature packet matched: 45ebbbb005e
+[GRANT TRACE] Time=7725000 Grant=1
+[OUTPUT] Time=7725000 Packet=45fbbbb005f Channel=1 Sequence=95
+[SCOREBOARD PASS] Temperature packet matched: 45fbbbb005f
+[GRANT TRACE] Time=7745000 Grant=1
+[OUTPUT] Time=7745000 Packet=460bbbb0060 Channel=1 Sequence=96
+[SCOREBOARD PASS] Temperature packet matched: 460bbbb0060
+[GRANT TRACE] Time=7765000 Grant=1
+[OUTPUT] Time=7765000 Packet=461bbbb0061 Channel=1 Sequence=97
+[SCOREBOARD PASS] Temperature packet matched: 461bbbb0061
+[GRANT TRACE] Time=7785000 Grant=1
+[OUTPUT] Time=7785000 Packet=462bbbb0062 Channel=1 Sequence=98
+[SCOREBOARD PASS] Temperature packet matched: 462bbbb0062
+[GRANT TRACE] Time=7805000 Grant=1
+[OUTPUT] Time=7805000 Packet=463bbbb0063 Channel=1 Sequence=99
+[SCOREBOARD PASS] Temperature packet matched: 463bbbb0063
+
+========== TEST 6A REPORT ==========
+Temperature accepted : 20
+Temperature received : 20
+Scoreboard accepted  : 20
+Scoreboard received  : 20
+Scoreboard pending   : 0
+Scoreboard errors    : 0
+[TEST 6A PASS] Temperature backpressure and recovery verified
+====================================
+
+[TEST 6B] Emergency producer backpressure
+[TEST 6B] Emergency producer blocked
+[TEST 6B PASS] Full buffer observed
+[TEST 6B] Output backpressure released
+[GRANT TRACE] Time=9345000 Grant=2
+[OUTPUT] Time=9345000 Packet=864cccc0064 Channel=2 Sequence=100
+[SCOREBOARD PASS] Emergency packet matched: 864cccc0064
+[GRANT TRACE] Time=9365000 Grant=2
+[OUTPUT] Time=9365000 Packet=865cccc0065 Channel=2 Sequence=101
+[SCOREBOARD PASS] Emergency packet matched: 865cccc0065
+[GRANT TRACE] Time=9385000 Grant=2
+[OUTPUT] Time=9385000 Packet=866cccc0066 Channel=2 Sequence=102
+[SCOREBOARD PASS] Emergency packet matched: 866cccc0066
+[GRANT TRACE] Time=9405000 Grant=2
+[OUTPUT] Time=9405000 Packet=867cccc0067 Channel=2 Sequence=103
+[SCOREBOARD PASS] Emergency packet matched: 867cccc0067
+[GRANT TRACE] Time=9425000 Grant=2
+[OUTPUT] Time=9425000 Packet=868cccc0068 Channel=2 Sequence=104
+[SCOREBOARD PASS] Emergency packet matched: 868cccc0068
+[GRANT TRACE] Time=9445000 Grant=2
+[OUTPUT] Time=9445000 Packet=869cccc0069 Channel=2 Sequence=105
+[SCOREBOARD PASS] Emergency packet matched: 869cccc0069
+[GRANT TRACE] Time=9465000 Grant=2
+[OUTPUT] Time=9465000 Packet=86acccc006a Channel=2 Sequence=106
+[SCOREBOARD PASS] Emergency packet matched: 86acccc006a
+[GRANT TRACE] Time=9485000 Grant=2
+[OUTPUT] Time=9485000 Packet=86bcccc006b Channel=2 Sequence=107
+[SCOREBOARD PASS] Emergency packet matched: 86bcccc006b
+[TEST 6B] Producer completed
+[GRANT TRACE] Time=9505000 Grant=2
+[OUTPUT] Time=9505000 Packet=86ccccc006c Channel=2 Sequence=108
+[SCOREBOARD PASS] Emergency packet matched: 86ccccc006c
+[GRANT TRACE] Time=9525000 Grant=2
+[OUTPUT] Time=9525000 Packet=86dcccc006d Channel=2 Sequence=109
+[SCOREBOARD PASS] Emergency packet matched: 86dcccc006d
+[GRANT TRACE] Time=9545000 Grant=2
+[OUTPUT] Time=9545000 Packet=86ecccc006e Channel=2 Sequence=110
+[SCOREBOARD PASS] Emergency packet matched: 86ecccc006e
+[GRANT TRACE] Time=9565000 Grant=2
+[OUTPUT] Time=9565000 Packet=86fcccc006f Channel=2 Sequence=111
+[SCOREBOARD PASS] Emergency packet matched: 86fcccc006f
+[GRANT TRACE] Time=9585000 Grant=2
+[OUTPUT] Time=9585000 Packet=870cccc0070 Channel=2 Sequence=112
+[SCOREBOARD PASS] Emergency packet matched: 870cccc0070
+[GRANT TRACE] Time=9605000 Grant=2
+[OUTPUT] Time=9605000 Packet=871cccc0071 Channel=2 Sequence=113
+[SCOREBOARD PASS] Emergency packet matched: 871cccc0071
+[GRANT TRACE] Time=9625000 Grant=2
+[OUTPUT] Time=9625000 Packet=872cccc0072 Channel=2 Sequence=114
+[SCOREBOARD PASS] Emergency packet matched: 872cccc0072
+[GRANT TRACE] Time=9645000 Grant=2
+[OUTPUT] Time=9645000 Packet=873cccc0073 Channel=2 Sequence=115
+[SCOREBOARD PASS] Emergency packet matched: 873cccc0073
+[GRANT TRACE] Time=9665000 Grant=2
+[OUTPUT] Time=9665000 Packet=874cccc0074 Channel=2 Sequence=116
+[SCOREBOARD PASS] Emergency packet matched: 874cccc0074
+[GRANT TRACE] Time=9685000 Grant=2
+[OUTPUT] Time=9685000 Packet=875cccc0075 Channel=2 Sequence=117
+[SCOREBOARD PASS] Emergency packet matched: 875cccc0075
+[GRANT TRACE] Time=9705000 Grant=2
+[OUTPUT] Time=9705000 Packet=876cccc0076 Channel=2 Sequence=118
+[SCOREBOARD PASS] Emergency packet matched: 876cccc0076
+[GRANT TRACE] Time=9725000 Grant=2
+[OUTPUT] Time=9725000 Packet=877cccc0077 Channel=2 Sequence=119
+[SCOREBOARD PASS] Emergency packet matched: 877cccc0077
+
+========== TEST 6B REPORT ==========
+Emergency accepted : 20
+Emergency received : 20
+Scoreboard accepted: 20
+Scoreboard received: 20
+Scoreboard pending : 0
+Scoreboard errors  : 0
+[TEST 6B PASS] Emergency backpressure and recovery verified
+
+[TEST 7B] Reset during output backpressure
+[TEST 7B] Output packet stalled
+[TEST 7B] Asserting reset
+[TEST 7B PASS] Stalled packet flushed by reset
+
+[TEST 7C] Reset with packets queued in multiple buffers
+[TEST 7C] Resetting all queued packets
+[TEST 7C PASS] Queued packets flushed successfully
+
+[TEST 7D] Post-reset traffic recovery
+[GRANT TRACE] Time=11445000 Grant=2
+[OUTPUT] Time=11445000 Packet=8c8cccc00c8 Channel=2 Sequence=200
+[SCOREBOARD PASS] Emergency packet matched: 8c8cccc00c8
+[GRANT TRACE] Time=11455000 Grant=0
+[OUTPUT] Time=11455000 Packet=0c8aaaa00c8 Channel=0 Sequence=200
+[SCOREBOARD PASS] Vibration packet matched: 0c8aaaa00c8
+[GRANT TRACE] Time=11465000 Grant=1
+[OUTPUT] Time=11465000 Packet=4c8bbbb00c8 Channel=1 Sequence=200
+[SCOREBOARD PASS] Temperature packet matched: 4c8bbbb00c8
+
+========== TEST 7 REPORT ==========
+Fresh packets accepted : 3
+Fresh packets received : 3
+Fresh packets pending  : 0
+Scoreboard errors      : 0
+Test 7 output count    : 3
+Test 7 errors          : 0
+[TEST 7 PASS] Reset and recovery verified
+==================================
+====================================
+
+[TEST 8] Full-only buffer state coverage
+
+[TEST 8 DEBUG]
+Buffer full  = 001
+Buffer empty = 000
+Full-only state = 1
+[TEST 8 PASS] Full-only buffer state observed
+[GRANT TRACE] Time=12355000 Grant=1
+[OUTPUT] Time=12355000 Packet=4dcbbbb00dc Channel=1 Sequence=220
+[SCOREBOARD PASS] Temperature packet matched: 4dcbbbb00dc
+[GRANT TRACE] Time=12365000 Grant=2
+[OUTPUT] Time=12365000 Packet=8dccccc00dc Channel=2 Sequence=220
+[SCOREBOARD PASS] Emergency packet matched: 8dccccc00dc
+[GRANT TRACE] Time=12375000 Grant=0
+[OUTPUT] Time=12375000 Packet=0dcaaaa00dc Channel=0 Sequence=220
+[SCOREBOARD PASS] Vibration packet matched: 0dcaaaa00dc
+[GRANT TRACE] Time=12385000 Grant=2
+[OUTPUT] Time=12385000 Packet=8ddcccc00dd Channel=2 Sequence=221
+[SCOREBOARD PASS] Emergency packet matched: 8ddcccc00dd
+[GRANT TRACE] Time=12395000 Grant=1
+[OUTPUT] Time=12395000 Packet=4ddbbbb00dd Channel=1 Sequence=221
+[SCOREBOARD PASS] Temperature packet matched: 4ddbbbb00dd
+[GRANT TRACE] Time=12405000 Grant=2
+[OUTPUT] Time=12405000 Packet=8decccc00de Channel=2 Sequence=222
+[SCOREBOARD PASS] Emergency packet matched: 8decccc00de
+[GRANT TRACE] Time=12415000 Grant=0
+[OUTPUT] Time=12415000 Packet=0ddaaaa00dd Channel=0 Sequence=221
+[SCOREBOARD PASS] Vibration packet matched: 0ddaaaa00dd
+[GRANT TRACE] Time=12425000 Grant=1
+[OUTPUT] Time=12425000 Packet=4debbbb00de Channel=1 Sequence=222
+[SCOREBOARD PASS] Temperature packet matched: 4debbbb00de
+[GRANT TRACE] Time=12435000 Grant=0
+[OUTPUT] Time=12435000 Packet=0deaaaa00de Channel=0 Sequence=222
+[SCOREBOARD PASS] Vibration packet matched: 0deaaaa00de
+[GRANT TRACE] Time=12455000 Grant=0
+[OUTPUT] Time=12455000 Packet=0dfaaaa00df Channel=0 Sequence=223
+[SCOREBOARD PASS] Vibration packet matched: 0dfaaaa00df
+[GRANT TRACE] Time=12475000 Grant=0
+[OUTPUT] Time=12475000 Packet=0e0aaaa00e0 Channel=0 Sequence=224
+[SCOREBOARD PASS] Vibration packet matched: 0e0aaaa00e0
+[GRANT TRACE] Time=12495000 Grant=0
+[OUTPUT] Time=12495000 Packet=0e1aaaa00e1 Channel=0 Sequence=225
+[SCOREBOARD PASS] Vibration packet matched: 0e1aaaa00e1
+[GRANT TRACE] Time=12515000 Grant=0
+[OUTPUT] Time=12515000 Packet=0e2aaaa00e2 Channel=0 Sequence=226
+[SCOREBOARD PASS] Vibration packet matched: 0e2aaaa00e2
+[GRANT TRACE] Time=12535000 Grant=0
+[OUTPUT] Time=12535000 Packet=0e3aaaa00e3 Channel=0 Sequence=227
+[SCOREBOARD PASS] Vibration packet matched: 0e3aaaa00e3
+[GRANT TRACE] Time=12555000 Grant=0
+[OUTPUT] Time=12555000 Packet=0e4aaaa00e4 Channel=0 Sequence=228
+[SCOREBOARD PASS] Vibration packet matched: 0e4aaaa00e4
+[GRANT TRACE] Time=12575000 Grant=0
+[OUTPUT] Time=12575000 Packet=0e5aaaa00e5 Channel=0 Sequence=229
+[SCOREBOARD PASS] Vibration packet matched: 0e5aaaa00e5
+[GRANT TRACE] Time=12595000 Grant=0
+[OUTPUT] Time=12595000 Packet=0e6aaaa00e6 Channel=0 Sequence=230
+[SCOREBOARD PASS] Vibration packet matched: 0e6aaaa00e6
+[GRANT TRACE] Time=12615000 Grant=0
+[OUTPUT] Time=12615000 Packet=0e7aaaa00e7 Channel=0 Sequence=231
+[SCOREBOARD PASS] Vibration packet matched: 0e7aaaa00e7
+[GRANT TRACE] Time=12635000 Grant=0
+[OUTPUT] Time=12635000 Packet=0e8aaaa00e8 Channel=0 Sequence=232
+[SCOREBOARD PASS] Vibration packet matched: 0e8aaaa00e8
+[GRANT TRACE] Time=12655000 Grant=0
+[OUTPUT] Time=12655000 Packet=0e9aaaa00e9 Channel=0 Sequence=233
+[SCOREBOARD PASS] Vibration packet matched: 0e9aaaa00e9
+[GRANT TRACE] Time=12675000 Grant=0
+[OUTPUT] Time=12675000 Packet=0eaaaaa00ea Channel=0 Sequence=234
+[SCOREBOARD PASS] Vibration packet matched: 0eaaaaa00ea
+[GRANT TRACE] Time=12695000 Grant=0
+[OUTPUT] Time=12695000 Packet=0ebaaaa00eb Channel=0 Sequence=235
+[SCOREBOARD PASS] Vibration packet matched: 0ebaaaa00eb
+[GRANT TRACE] Time=12715000 Grant=0
+[OUTPUT] Time=12715000 Packet=0ecaaaa00ec Channel=0 Sequence=236
+[SCOREBOARD PASS] Vibration packet matched: 0ecaaaa00ec
+[TEST 8 PASS] Multi-buffer drain successful
+
+[TEST 9A] Emergency burst followed by vibration
+[TEST 9A] First emergency packet staged
+[TEST 9A] Releasing output
+[GRANT TRACE] Time=13405000 Grant=2
+[OUTPUT] Time=13405000 Packet=8f0cccc00f0 Channel=2 Sequence=240
+[SCOREBOARD PASS] Emergency packet matched: 8f0cccc00f0
+[GRANT TRACE] Time=13415000 Grant=0
+[OUTPUT] Time=13415000 Packet=0f0aaaa00f0 Channel=0 Sequence=240
+[SCOREBOARD PASS] Vibration packet matched: 0f0aaaa00f0
+[GRANT TRACE] Time=13425000 Grant=2
+[OUTPUT] Time=13425000 Packet=8f1cccc00f1 Channel=2 Sequence=241
+[SCOREBOARD PASS] Emergency packet matched: 8f1cccc00f1
+[GRANT TRACE] Time=13435000 Grant=0
+[OUTPUT] Time=13435000 Packet=0f1aaaa00f1 Channel=0 Sequence=241
+[SCOREBOARD PASS] Vibration packet matched: 0f1aaaa00f1
+[GRANT TRACE] Time=13445000 Grant=2
+[OUTPUT] Time=13445000 Packet=8f2cccc00f2 Channel=2 Sequence=242
+[SCOREBOARD PASS] Emergency packet matched: 8f2cccc00f2
+[TEST 9A PASS] Emergency burst and vibration recovery
+
+[TEST 9B] Emergency burst followed by temperature
+[TEST 9B] First emergency packet staged
+[TEST 9B] Releasing output
+[GRANT TRACE] Time=13935000 Grant=2
+[OUTPUT] Time=13935000 Packet=8facccc00fa Channel=2 Sequence=250
+[SCOREBOARD PASS] Emergency packet matched: 8facccc00fa
+[GRANT TRACE] Time=13955000 Grant=2
+[OUTPUT] Time=13955000 Packet=8fbcccc00fb Channel=2 Sequence=251
+[SCOREBOARD PASS] Emergency packet matched: 8fbcccc00fb
+[GRANT TRACE] Time=13965000 Grant=1
+[OUTPUT] Time=13965000 Packet=4fabbbb00fa Channel=1 Sequence=250
+[SCOREBOARD PASS] Temperature packet matched: 4fabbbb00fa
+[GRANT TRACE] Time=13975000 Grant=2
+[OUTPUT] Time=13975000 Packet=8fccccc00fc Channel=2 Sequence=252
+[SCOREBOARD PASS] Emergency packet matched: 8fccccc00fc
+[GRANT TRACE] Time=13985000 Grant=1
+[OUTPUT] Time=13985000 Packet=4fbbbbb00fb Channel=1 Sequence=251
+[SCOREBOARD PASS] Temperature packet matched: 4fbbbbb00fb
+[TEST 9B PASS] Emergency burst and temperature recovery
+
+[TEST 10] Vibration grant under full contention
+[GRANT TRACE] Time=14425000 Grant=2
+[OUTPUT] Time=14425000 Packet=804cccc0104 Channel=2 Sequence=4
+[SCOREBOARD PASS] Emergency packet matched: 804cccc0104
+[GRANT TRACE] Time=14465000 Grant=2
+[OUTPUT] Time=14465000 Packet=805cccc0105 Channel=2 Sequence=5
+[SCOREBOARD PASS] Emergency packet matched: 805cccc0105
+[TEST 10] Emergency streak reached maximum
+[TEST 10] Vibration grant locked during stall
+[TEST 10] All three scheduler inputs valid
+[TEST 10] Selected grant = 0
+[GRANT TRACE] Time=14625000 Grant=0
+[OUTPUT] Time=14625000 Packet=004aaaa0104 Channel=0 Sequence=4
+[SCOREBOARD PASS] Vibration packet matched: 004aaaa0104
+[GRANT TRACE] Time=14635000 Grant=2
+[OUTPUT] Time=14635000 Packet=806cccc0106 Channel=2 Sequence=6
+[SCOREBOARD PASS] Emergency packet matched: 806cccc0106
+[GRANT TRACE] Time=14645000 Grant=1
+[OUTPUT] Time=14645000 Packet=404bbbb0104 Channel=1 Sequence=4
+[SCOREBOARD PASS] Temperature packet matched: 404bbbb0104
+[TEST 10 PASS] All contention packets drained
+
+[TEST 11] Packet type and channel cross coverage
+[TEST 11] Temperature packet type=0 sent
+[TEST 11] Vibration packet type=0 sent
+[TEST 11] Emergency packet type=0 sent
+[TEST 11] Vibration packet type=1 sent
+[TEST 11] Temperature packet type=1 sent
+[TEST 11] Vibration packet type=2 sent
+[GRANT TRACE] Time=15095000 Grant=1
+[OUTPUT] Time=15095000 Packet=418bbbb0118 Channel=1 Sequence=24
+[SCOREBOARD PASS] Temperature packet matched: 418bbbb0118
+[TEST 11] Emergency packet type=1 sent
+[GRANT TRACE] Time=15105000 Grant=0
+[OUTPUT] Time=15105000 Packet=00eaaaa010e Channel=0 Sequence=14
+[SCOREBOARD PASS] Vibration packet matched: 00eaaaa010e
+[TEST 11] Temperature packet type=2 sent
+[TEST 11] Vibration packet type=3 sent
+[GRANT TRACE] Time=15115000 Grant=2
+[OUTPUT] Time=15115000 Packet=822cccc0122 Channel=2 Sequence=34
+[SCOREBOARD PASS] Emergency packet matched: 822cccc0122
+[GRANT TRACE] Time=15125000 Grant=1
+[OUTPUT] Time=15125000 Packet=519bbbb0119 Channel=1 Sequence=25
+[SCOREBOARD PASS] Temperature packet matched: 519bbbb0119
+[TEST 11] Temperature packet type=3 sent
+[GRANT TRACE] Time=15135000 Grant=0
+[OUTPUT] Time=15135000 Packet=10faaaa010f Channel=0 Sequence=15
+[SCOREBOARD PASS] Vibration packet matched: 10faaaa010f
+[TEST 11] Emergency packet type=2 sent
+[GRANT TRACE] Time=15145000 Grant=2
+[OUTPUT] Time=15145000 Packet=923cccc0123 Channel=2 Sequence=35
+[SCOREBOARD PASS] Emergency packet matched: 923cccc0123
+[GRANT TRACE] Time=15155000 Grant=1
+[OUTPUT] Time=15155000 Packet=61abbbb011a Channel=1 Sequence=26
+[SCOREBOARD PASS] Temperature packet matched: 61abbbb011a
+[GRANT TRACE] Time=15165000 Grant=0
+[OUTPUT] Time=15165000 Packet=210aaaa0110 Channel=0 Sequence=16
+[SCOREBOARD PASS] Vibration packet matched: 210aaaa0110
+[TEST 11] Emergency packet type=3 sent
+[GRANT TRACE] Time=15185000 Grant=2
+[OUTPUT] Time=15185000 Packet=a24cccc0124 Channel=2 Sequence=36
+[SCOREBOARD PASS] Emergency packet matched: a24cccc0124
+[GRANT TRACE] Time=15195000 Grant=1
+[OUTPUT] Time=15195000 Packet=71bbbbb011b Channel=1 Sequence=27
+[SCOREBOARD PASS] Temperature packet matched: 71bbbbb011b
+[GRANT TRACE] Time=15205000 Grant=0
+[OUTPUT] Time=15205000 Packet=311aaaa0111 Channel=0 Sequence=17
+[SCOREBOARD PASS] Vibration packet matched: 311aaaa0111
+[GRANT TRACE] Time=15225000 Grant=2
+[OUTPUT] Time=15225000 Packet=b25cccc0125 Channel=2 Sequence=37
+[SCOREBOARD PASS] Emergency packet matched: b25cccc0125
+
+========== TEST 11 REPORT ==========
+Packets accepted : 12
+Packets received : 12
+Packets pending  : 0
+Scoreboard errors: 0
+[TEST 11 PASS] All 12 channel/type combinations verified
+====================================
+==============================================
+ TELEMETRY INTEGRATION TEST REPORT
+==========================================
+Packets accepted    : 12
+Packets received    : 12
+Packets pending     : 0
+Scoreboard errors   : 0
+Backpressure errors : 0
+Priority test outputs: 12
+Priority test errors : 0
+
+
+========== TEST 4 FAIRNESS REPORT ==========
+Vibration packets                  : 6
+Temperature packets                : 6
+Total outputs                      : 12
+Consecutive same-channel violations: 0
+Scoreboard errors                  : 0
+Pending packets                    : 0
+============================================
+
+========== PERFORMANCE REPORT ==========
+Vibration accepted  : 66
+Temperature accepted: 49
+Emergency accepted  : 48
+-----------------------------------------
+Vibration received  : 63
+Temperature received: 47
+Emergency received  : 46
+-----------------------------------------
+Output transfer cycles: 156
+Output stall cycles   : 261
+=========================================
+Test 6A temperature errors: 0
+Test 6B emergency errors  : 0
+Test 7 reset errors: 0
+[FINAL RESULT] ALL TESTS PASSED
+==========================================
+
+
+==========================================
+          TELEMETRY SVA REPORT
+==========================================
+
+--- OUTPUT ASSERTION RESULTS ---
+Output stability          : PASS
+Valid packet known        : PASS
+Buffer status             : PASS
+Valid held during stall   : PASS
+Invalid output zero       : PASS
+
+--- PRODUCER ASSERTION RESULTS ---
+Vibration producer        : PASS
+Temperature producer      : PASS
+Emergency producer        : PASS
+
+--- FAILURE COUNTERS ---
+Output stability failures : 0
+Known packet failures     : 0
+Buffer status failures    : 0
+Output valid stall failures: 0
+Invalid output failures   : 0
+Vibration valid failures  : 0
+Vibration data failures   : 0
+Temperature valid failures: 0
+Temperature data failures: 0
+Emergency valid failures  : 0
+Emergency data failures   : 0
+
+--- SCENARIO OBSERVATIONS ---
+Output stability observations: 261
+Known packet observations    : 417
+Buffer status samples        : 1533
+Output backpressure cycles   : 261
+Valid output cycles          : 417
+Buffer full cycles           : 44
+Buffer empty cycles          : 1470
+Vibration producer stalls    : 6
+Temperature producer stalls  : 7
+Emergency producer stalls    : 7
+==========================================
+
+
+==========================================
+       TELEMETRY FUNCTIONAL COVERAGE
+==========================================
+Overall Coverage          : 100.00%
+------------------------------------------
+Individual Coverpoint Coverage
+------------------------------------------
+Channel                   : 100.00%
+Packet Type               : 100.00%
+Channel x Packet Type     : 100.00%
+Backpressure              : 100.00%
+Buffer Full               : 100.00%
+Buffer Empty              : 100.00%
+Buffer State              : 100.00%
+Scheduler Grant           : 100.00%
+Contention                : 100.00%
+Grant x Contention        : 100.00%
+Normal Round Robin        : 100.00%
+Emergency Burst           : 100.00%
+Grant Lock                : 100.00%
+Scheduler Idle            : 100.00%
+==========================================
+
+========== COVERAGE BIN DIAGNOSTICS ==========
+
+Buffer State Counts:
+  00 Both inactive : 59
+  01 Empty only    : 1430
+  10 Full only     : 4
+  11 Both active   : 40
+
+Grant/Contention Observations:
+  Normal only      : 108
+  Emergency only   : 31
+  Both             : 17
+
+Emergency Burst Coverage:
+  Two emergency then vibration : Check covergroup
+  Two emergency then temperature: Check covergroup
+
+Grant x Contention Bin Counts:
+Vibration   : Normal=62 Both=1
+Temperature : Normal=46 Both=1
+Emergency   : Emergency=31 Both=15
+===============================================
+$finish called at time : 16170 ns : File "C:/Vivado/Telemetry_Verification_Clean_New/system_tb/telemetry_concentrator_tb.sv" Line 1879
